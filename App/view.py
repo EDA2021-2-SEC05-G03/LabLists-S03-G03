@@ -95,7 +95,7 @@ while True:
         loadData(catalog)
 #       t1 = process_time()
 
-#       print("Time = " + str(t1-t2) + "s")
+#       print("Time = " + str(t2-t1) + "s")
         
         print('Libros cargados: ' + str(lt.size(catalog['books'])))
         print('Autores cargados: ' + str(lt.size(catalog['authors'])))
