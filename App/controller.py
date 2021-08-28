@@ -84,6 +84,7 @@ def loadBooksTags(catalog):
     input_file = csv.DictReader(open(booktagsfile, encoding='utf-8'))
     for booktag in input_file:
         model.addBookTag(catalog, booktag)
+    
 
 
 # Funciones de ordenamiento
